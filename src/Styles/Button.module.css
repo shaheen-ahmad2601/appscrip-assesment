@@ -5,7 +5,7 @@
     border-radius: 14px;
     cursor: pointer;
     border: none;
-    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+    background: var(--aa, linear-gradient(135deg, #7855b9 0%, #e6d148 100%));
 }
 
 .form_Btn {
@@ -23,7 +23,7 @@
     padding: 16px 24px;
     border-radius: 16px;
     border: none;
-    background: linear-gradient(131deg, #B126F2 0%, #7700D4 100%);
+    background: linear-gradient(131deg, #6726f2 0%, #92a439 100%);
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.12);
     margin-top: 40px;
 }

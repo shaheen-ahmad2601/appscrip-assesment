@@ -2,7 +2,7 @@
     width: 370px;
     flex-shrink: 0;
     border-radius: 21.442px;
-    background: rgba(30, 28, 34, 0.60);
+    background: rgba(28, 27, 37, 0.6);
     backdrop-filter: blur(5px);
     border: 1px solid #5D1C8E;
     margin: auto;
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 7.5px;
-    background: #4285F4;
+    background: #386fc7;
     padding: 10px 9.608px 10px 9px;
     font-size: 13px;
 }
@@ -60,7 +60,7 @@
 
 .timeZone {
     display: flex;
-    color: #8971A0;
+    color: #c2d3bf;
     align-items: center;
     justify-content: space-between;
     font-size: 12px;
