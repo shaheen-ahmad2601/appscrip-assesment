@@ -1,0 +1,73 @@
+.nav_container {
+    width: 100%;
+    height: 70px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 0 0 35px;
+
+}
+
+.home {
+    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+}
+
+.nav_Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_Content>p {
+    font-size: .9rem;
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 0 0;
+}
+
+.hamburger_container {
+    display: none;
+}
+
+@media screen and (max-width: 525px) {
+    .nav_container {
+        display: flex;
+        justify-content: space-between;
+        background: rgb(25, 11, 31s);
+    }
+
+    .hamburger_container {
+        display: block;
+        padding-right: 3%;
+    }
+
+    .heading {
+        display: none;
+    }
+
+}

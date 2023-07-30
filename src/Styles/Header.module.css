@@ -1,0 +1,78 @@
+.header {
+    position: relative;
+    height: 700px;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/Banners/banner1.png");
+    background-size: cover;
+    z-index: -1;
+}
+
+.formContainer {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.headingDiv {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    color: var(--white-50, #CAC4D2);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118%;
+    display: block;
+}
+
+.subHeading_content {
+    color: #C2A9D9;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 525px) {
+    .header {
+        height: 750px;
+    }
+
+    .backgroundImage {
+        background-image: url("https://i.ibb.co/yf42xYx/Motion-Background.png");
+    }
+
+    .headingDiv {
+        position: absolute;
+        top: 18%;
+        left: 42%;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .subHeading_content {
+        color: #B27DE5;
+        font-size: 14px;
+    }
+
+    .formContainer {
+        top: 60%;
+        left: 50%;
+        padding: 2%;
+    }
+}
